@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+#adobe-logo {
+    width: 2rem;
+}
+
+#search-icon {
+    width: 1rem;
+}
+
+#container {
+}
+
+#hero-section {
+    background-image: url(./images/vintage-1266412.jpg);
+
+}
+
+#photoshop-logo {
+    width: 5rem;
+}
