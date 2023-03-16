@@ -11,14 +11,16 @@
     <header>
         <nav>
             <div id="nav-container1">
-                <span class="nav-item">
+                <div class="nav-item">
                     <img id="adobe-logo" src="./images/adobe.svg" alt="Adobe Logo">
-                    <span>Adobe</span>
-                </span>
-                <span class="nav-item" id="link-container">
-                    <a class="link-item">
+                    <div>Adobe</div>
+                </div>
+                <div class="nav-item former-link-item" id="creativity">
+                    <a class="">
                         Creativity & Design
                     </a>
+                </div>
+                <div class="nav-item" id="link-container">
                     <a class="link-item">
                         Photoshop
                     </a>
@@ -34,19 +36,21 @@
                     <a class="link-item">
                         Free Trial
                     </a>
-                </span>
-                <span class="nav-item">
-                    <span>Save 20% Now</span>
-                </span>
-                <span class="nav-item">
+                </div>
+                <div class="nav-item" id="save-now-div">
+                    <a>Save 20% Now</a>
+                </div>
+                <div class="nav-item" id="cta-div">
                     <img id="search-icon" src="./images/search.svg" alt="Search Icon">
                     <a>Sign in</a>
-                </span>
+                </div>
             </div>
             <div id="nav-container2">
                 <div id="nav2-item">
                     <a>Home</a>
+                    <a>/</a>
                     <a>Adobe Creative Cloud</a>
+                    <a>/</a>
                     <a>Adobe Photoshop</a>
                 </div>
                 <a></a>
@@ -56,12 +60,24 @@
     <main>
         <div id="container">
             <div id="hero-section">
-                <img id="photoshop-logo" src="./images/photoshop.svg" alt="Photoshop Logo">
-                <h1>Start with Photoshop.<br>Amazing will follow.</h1>
-                <p>Gorgeous images, rich graphics and incredible art<br>— you can do it all with Photoshop</p>
-                <button>Buy now</button>
-                <button>Free trial</button>
-                <p>See plans for students and teachers or small and medium business.</p>
+                <div id="hero-section-wrapper">
+                    <div>
+                        <img id="photoshop-logo" src="./images/photoshop.svg" alt="Photoshop Logo">
+                    </div>
+                    <div id="h1-cont">
+                        <h1>Start with Photoshop.<br>Amazing will follow.</h1>
+                    </div>
+                    <div id="p-cont">
+                        <p>Gorgeous images, rich graphics and incredible art<br>— you can do it all with Photoshop</p>
+                    </div>
+                    <div id="cta-cont">
+                        <button>Buy now</button>
+                        <button>Free trial</button>
+                    </div>
+                    <div id="seeplans-cont">
+                        <p>See plans for students and teachers or small and medium business.</p>
+                    </div>
+                </div>
             </div>
             <div id="second-section">
                 <h2>Go wherever your imagination takes you.</h2>
@@ -137,7 +153,13 @@
         </div>
     </main>
     <footer>
-        <div></div>
+        <div id="blue-line"></div>
+        <div  id="try-for-free">
+            <h2>Try Photoshop for free.</h2>
+            <p>Get Photoshop for free for 7 days, then US$24,14/mo.</p>
+            <button>Buy now</button>
+            <button>Free trial</button>
+        </div>
     </footer>
     <!-- <div style="padding-bottom: 2000px;"></div> -->
 </body>

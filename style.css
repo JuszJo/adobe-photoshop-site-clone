@@ -1,26 +1,173 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
 }
 
 header {
     position: sticky;
     top: 0;
+    background-color: white;
+    box-shadow: 0px -10px 20px 1px;
+    z-index: 1;
+    cursor: pointer;
+    /* box-sizing: border-box; */
 }
 
+a {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#nav-container1 {
+    border-bottom: 1px solid rgb(211, 211, 211);
+    text-align: center;
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
+}
+
+.nav-item {
+    display: inline-block;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.nav-item:nth-child(1) {
+    border-right: 1px solid rgb(199, 199, 199);
+    /* margin-left: 3.5rem; */
+    padding-right: 1rem;
+}
+
+#creativity, #link-container, #save-now-div, #cta-div {
+    margin-left: 0.5rem;
+    /* margin-bottom: 5rem; */
+    position: relative;
+    bottom: 0.3rem;
+}
+
+#save-now-div {
+    margin-right: 32rem;
+}
+
+/* #cta-div {
+    
+} */
+
+
 #adobe-logo {
-    width: 2rem;
+    width: 1.5rem;
+    /* margin-top: 1rem; */
+    /* padding-top: 1rem; */
+    display: inline-block;
+}
+
+.nav-item div {
+    display: inline-block;
+    position: relative;
+    bottom: 0.3rem;
+    color: red
+    /* padding-bottom: 1rem; */
+}
+
+.link-item {
+    margin-right: 1rem;
+}
+
+.former-link-item {
+    border-right: 1px solid rgb(199, 199, 199);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
 }
 
 #search-icon {
-    width: 1rem;
+    width: 1.2rem;
+    position: relative;
+    top: 0.3rem;
 }
+
+#cta-div a {
+    margin-left: 1rem;
+}
+
+#nav-container2 {
+    text-align: center;
+    margin-left: -69rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+#nav2-item a{
+    font-size: 0.7rem;
+    line-height: 2;
+    margin-right: 0.3rem;
+    
+}
+
+/* #nav2-item a:nth-child(2) {
+    margin-left: 1rem;
+}  */
 
 #hero-section {
     background-image: url(./images/vintage-1266412.jpg);
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
 }
 
 #photoshop-logo {
     width: 5rem;
 }
+
+#hero-section-wrapper {
+    /* text-align: center; */
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    right: 22rem;
+    padding: 5rem 0;
+}
+
+#h1-cont, #p-cont, #cta-cont, #seeplans-cont {
+    margin-top: 1rem;
+}
+
+#seeplans-cont {
+    margin-top: 2rem;
+}
+
+#h1-cont h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#p-cont p {
+    font-size: 1.3rem;
+}
+
+#cta-cont button{
+    border: none;
+    background-color: #0469e3;
+    width: 9.5rem;
+    height: 3rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 1.4rem;
+}
+
+#cta-cont button:nth-child(1) {
+    border: 0.1rem solid black;
+    background-color: transparent;
+    color: black;
+}
+
+#cta-cont button:nth-child(2) {
+    margin-left: 1.5rem;
+    width: 7rem;
+}
+
+/* #hero-section img, #hero-section h1, #hero-section p, #hero-section button {
+    text-align: left; 
+}*/
