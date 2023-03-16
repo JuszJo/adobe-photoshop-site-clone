@@ -10,20 +10,21 @@ header {
     background-color: white;
     box-shadow: 0px -10px 20px 1px;
     z-index: 1;
-    cursor: pointer;
-    /* box-sizing: border-box; */
 }
 
-a {
+header a {
     font-size: 13px;
     font-weight: 500;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
 }
 
 #nav-container1 {
     border-bottom: 1px solid rgb(211, 211, 211);
     text-align: center;
-    /* padding-top: 1rem;
-    padding-bottom: 1rem; */
 }
 
 .nav-item {
@@ -34,30 +35,31 @@ a {
 
 .nav-item:nth-child(1) {
     border-right: 1px solid rgb(199, 199, 199);
-    /* margin-left: 3.5rem; */
     padding-right: 1rem;
 }
 
 #creativity, #link-container, #save-now-div, #cta-div {
     margin-left: 0.5rem;
-    /* margin-bottom: 5rem; */
     position: relative;
-    bottom: 0.3rem;
+}
+
+#creativity a, #link-container a, #save-now-div a, #cta-div a, #cta-div img{
+    vertical-align: top;
 }
 
 #save-now-div {
     margin-right: 32rem;
 }
 
-/* #cta-div {
-    
-} */
-
+#save-now-div a {
+    background-color: #0469e3;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    border-radius: 1rem;
+}
 
 #adobe-logo {
     width: 1.5rem;
-    /* margin-top: 1rem; */
-    /* padding-top: 1rem; */
     display: inline-block;
 }
 
@@ -65,8 +67,7 @@ a {
     display: inline-block;
     position: relative;
     bottom: 0.3rem;
-    color: red
-    /* padding-bottom: 1rem; */
+    color: red;
 }
 
 .link-item {
@@ -75,15 +76,13 @@ a {
 
 .former-link-item {
     border-right: 1px solid rgb(199, 199, 199);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.25rem;
     padding-right: 1rem;
 }
 
 #search-icon {
     width: 1.2rem;
-    position: relative;
-    top: 0.3rem;
 }
 
 #cta-div a {
@@ -105,10 +104,6 @@ a {
     
 }
 
-/* #nav2-item a:nth-child(2) {
-    margin-left: 1rem;
-}  */
-
 #container {
     text-align: center;
 }
@@ -126,7 +121,6 @@ a {
 }
 
 #hero-section-wrapper {
-    /* text-align: center; */
     position: relative;
     display: inline-block;
     text-align: left;
@@ -190,10 +184,6 @@ a {
     position: relative;
     margin: 0 0.8rem;
 }
-
-/* .image-card:nth-child(2), .image-card:nth-child(3) {
-    bottom: 1.35rem;
-} */
 
 .image-card img {
     width: 23rem;
@@ -262,10 +252,19 @@ a {
     margin-bottom: 2.25rem;
 }
 
+#FAQ-section a {
+    color: #0469e3;
+    text-decoration: none;
+}
+
+#blue-line {
+    height: 0.75rem;
+    background-color: #0469e3;
+}
+
 #try-for-free {
     text-align: center;
     padding-bottom: 5rem;
-    border: 1px solid black;
     padding-top: 3.5rem;
 }
 
@@ -304,7 +303,3 @@ a {
     width: 7rem;
     margin-left: 1.25rem;
 }
-
-/* #hero-section img, #hero-section h1, #hero-section p, #hero-section button {
-    text-align: left; 
-}*/
