@@ -91,7 +91,7 @@ button {
 
 #nav-container2 {
     text-align: center;
-    margin-left: -69rem;
+    margin-left: -71rem;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
 }
@@ -145,7 +145,7 @@ button {
     font-size: 1.3rem;
 }
 
-#cta-cont button{
+#free-trial{
     border: none;
     background-color: #0469e3;
     width: 9.5rem;
@@ -156,10 +156,20 @@ button {
     border-radius: 1.4rem;
 }
 
-#cta-cont button:nth-child(1) {
+#ghost-button1 {
+    width: 9.5rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 1.4rem;
     border: 0.1rem solid black;
     background-color: transparent;
     color: black;
+}
+
+#ghost-button1:hover {
+    background-color: black;
+    color: white;
 }
 
 #cta-cont button:nth-child(2) {
@@ -282,10 +292,27 @@ button {
     margin-top: 1.5rem;
 }
 
-#try-for-free button {
+#ghost-button2:hover {
+    background-color: black;
+    color: white;
+}
+
+#ghost-button2 {
+    border: 0.1rem solid black;
+    background-color: transparent;
+    color: black;
+    width: 9.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 1.4rem;
+    height: 3rem;
+}
+
+#try-for-free button:nth-child(2) {
+    width: 7rem;
+    margin-left: 1.25rem;
     border: none;
     background-color: #0469e3;
-    width: 9.5rem;
     height: 3rem;
     color: white;
     font-size: 1.2rem;
@@ -293,13 +320,8 @@ button {
     border-radius: 1.4rem;
 }
 
-#try-for-free button:nth-child(1) {
-    border: 0.1rem solid black;
-    background-color: transparent;
-    color: black;
-}
-
-#try-for-free button:nth-child(2) {
-    width: 7rem;
-    margin-left: 1.25rem;
+@media (max-width: 800px) {
+    h1 {
+        color: #0469e3;
+    }
 }
