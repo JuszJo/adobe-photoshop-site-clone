@@ -108,6 +108,10 @@ a {
     margin-left: 1rem;
 }  */
 
+#container {
+    text-align: center;
+}
+
 #hero-section {
     background-image: url(./images/vintage-1266412.jpg);
     background-repeat: no-repeat;
@@ -166,6 +170,61 @@ a {
 #cta-cont button:nth-child(2) {
     margin-left: 1.5rem;
     width: 7rem;
+}
+
+#second-section {
+    padding-bottom: 5rem;
+}
+
+#second-section h2 {
+    padding-right: 30rem;
+    padding-top: 2rem;
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.image-card {
+    display: inline-block;
+    position: relative;
+    margin: 0 0.8rem;
+}
+
+/* .image-card:nth-child(2), .image-card:nth-child(3) {
+    bottom: 1.35rem;
+} */
+
+.image-card img {
+    width: 23rem;
+    display: block;
+}
+
+.image-card p, .image-card h3 {
+    text-align: left;
+}
+
+.image-card h3 {
+    margin-top: 1rem;
+}
+
+.image-card p {
+    max-width: 23rem;
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+#FAQ-section h2 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: #505050;
+}
+
+#FAQ-section h4 {
+    color: #505050;
+}
+#try-for-free {
+    
+    text-align: center;
 }
 
 /* #hero-section img, #hero-section h1, #hero-section p, #hero-section button {
