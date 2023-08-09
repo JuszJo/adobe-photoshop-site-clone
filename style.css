@@ -9,6 +9,7 @@ header {
     top: 0;
     background-color: white;
     box-shadow: 0px -10px 20px 1px;
+    /* z-index: 1; */
     z-index: 1;
 }
 
@@ -25,6 +26,7 @@ button {
 #nav-container1 {
     border-bottom: 1px solid rgb(211, 211, 211);
     text-align: center;
+    /* padding-right: 30rem; */
 }
 
 .nav-item {
@@ -49,6 +51,8 @@ button {
 
 #save-now-div {
     margin-right: 32rem;
+    /* margin-right: calc(100% - 1200px); */
+    /* margin-right: calc(100% - 50%); */
 }
 
 #save-now-div a {
@@ -318,8 +322,99 @@ button {
     border-radius: 1.4rem;
 }
 
-@media (max-width: 800px) {
-    h1 {
-        color: #0469e3;
+@media (max-width: 1450px) {
+    #save-now-div {
+        margin-right: 25rem;
+    }
+
+    #nav-container2 {
+        margin-left: -64rem;
+    }
+}
+
+@media (max-width: 1350px) {
+    #save-now-div {
+        margin-right: 20rem;
+    }
+
+    #nav-container2 {
+        margin-left: -59rem;
+    }
+}
+
+@media (max-width: 1316px) {
+    #questions-col1 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1250px) {
+    #save-now-div {
+        margin-right: 14rem;
+    }
+
+    #nav-container2 {
+        margin-left: -53rem;
+    }
+}
+
+@media (max-width: 1244px) {
+    #questions-col2 {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1156px) {
+    #hero-section-wrapper {
+        right: 0;
+    }
+
+    #second-section h2 {
+        padding-right: 0;
+    }
+
+    #FAQ-section h2 {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .remove {
+        display: none;
+    }
+
+    #questions-col1 {
+        margin: 0;
+    }
+
+    #questions-col2 {
+        margin: 0;
+    }
+
+    .nav-item:nth-child(1) {
+        border: none;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 650px) {
+    #FAQ-section {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    #photoshop-logo {
+        width: 4rem;
+    }
+
+    #hero-section-wrapper {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .image-card img {
+        width: 20rem;
     }
 }
